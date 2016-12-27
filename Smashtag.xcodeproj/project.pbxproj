@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355052E0BCD00D864E464834 /* Pods_SmashtagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B49A7A352CA0BDAB3CF75F4 /* Pods_SmashtagTests.framework */; };
+		745AE1EA4AC96D3520CBC127 /* Pods_SmashtagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3925D1D0493116EEB391BAB4 /* Pods_SmashtagUITests.framework */; };
+		B23460CAD159DBBDDF20A957 /* Pods_ModulesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96370B05BEDCB0640210B336 /* Pods_ModulesTests.framework */; };
+		CB04BA0C8CE67AAD110ABD66 /* Pods_Smashtag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A69CC85DD0186BC370B009B /* Pods_Smashtag.framework */; };
 		D40DFFB01DA2F1D400E77967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40DFFAF1DA2F1D400E77967 /* AppDelegate.swift */; };
 		D40DFFB21DA2F1D400E77967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40DFFB11DA2F1D400E77967 /* ViewController.swift */; };
 		D40DFFB51DA2F1D500E77967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40DFFB31DA2F1D500E77967 /* Main.storyboard */; };
@@ -14,6 +18,13 @@
 		D40DFFBA1DA2F1D500E77967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40DFFB81DA2F1D500E77967 /* LaunchScreen.storyboard */; };
 		D40DFFC51DA2F1D500E77967 /* SmashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40DFFC41DA2F1D500E77967 /* SmashtagTests.swift */; };
 		D40DFFD01DA2F1D500E77967 /* SmashtagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40DFFCF1DA2F1D500E77967 /* SmashtagUITests.swift */; };
+		D435F2D01E04373200237133 /* Pods_SmashtagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D435F2CF1E04373200237133 /* Pods_SmashtagTests.framework */; };
+		D435F2D41E0451D800237133 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435F2D31E0451D800237133 /* TwitterClient.swift */; };
+		D435F3001E058F0900237133 /* ModulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435F2FF1E058F0900237133 /* ModulesTests.swift */; };
+		D435F30E1E05FB6F00237133 /* trinity_college_dublin_tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = D435F30D1E05FB6F00237133 /* trinity_college_dublin_tweets.json */; };
+		D435F3131E06A93B00237133 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435F3121E06A93B00237133 /* Tweet.swift */; };
+		D435F3141E06A93B00237133 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435F3121E06A93B00237133 /* Tweet.swift */; };
+		D456A8CB1E130076002B4938 /* trinity_college_dublin_tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = D435F30D1E05FB6F00237133 /* trinity_college_dublin_tweets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +42,34 @@
 			remoteGlobalIDString = D40DFFAB1DA2F1D400E77967;
 			remoteInfo = Smashtag;
 		};
+		D435F2E91E04620700237133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40DFFA41DA2F1D400E77967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40DFFAB1DA2F1D400E77967;
+			remoteInfo = Smashtag;
+		};
+		D435F2F71E04623800237133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40DFFA41DA2F1D400E77967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40DFFAB1DA2F1D400E77967;
+			remoteInfo = Smashtag;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A69CC85DD0186BC370B009B /* Pods_Smashtag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smashtag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE35DB431EC04F784BCA158 /* Pods-ModulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModulesTests/Pods-ModulesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3925D1D0493116EEB391BAB4 /* Pods_SmashtagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmashtagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAA26CB207D66EEB3DD5E5A /* Pods-SmashtagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashtagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmashtagTests/Pods-SmashtagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74CD0170E554CB5A4197B783 /* Pods-SmashtagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashtagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmashtagUITests/Pods-SmashtagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8376FAAFF05CD0ABACE64C21 /* Pods-ModulesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModulesTests/Pods-ModulesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9528BE50CEEF09C429211A3E /* Pods-SmashtagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashtagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmashtagTests/Pods-SmashtagTests.release.xcconfig"; sourceTree = "<group>"; };
+		96370B05BEDCB0640210B336 /* Pods_ModulesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B17FCF968047700DB5D43DB /* Pods-SmashtagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashtagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmashtagUITests/Pods-SmashtagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B49A7A352CA0BDAB3CF75F4 /* Pods_SmashtagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmashtagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41B95D520ADFC10256D5EE1 /* Pods-Smashtag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smashtag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smashtag/Pods-Smashtag.release.xcconfig"; sourceTree = "<group>"; };
 		D40DFFAC1DA2F1D400E77967 /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40DFFAF1DA2F1D400E77967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D40DFFB11DA2F1D400E77967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,19 @@
 		D40DFFCB1DA2F1D500E77967 /* SmashtagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40DFFCF1DA2F1D500E77967 /* SmashtagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagUITests.swift; sourceTree = "<group>"; };
 		D40DFFD11DA2F1D500E77967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435F2C91E0436B500237133 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Smashtag-ghcqpalstfsvjxczsaxandhroond/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		D435F2CA1E0436B500237133 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		D435F2CB1E0436B500237133 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
+		D435F2CF1E04373200237133 /* Pods_SmashtagTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SmashtagTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_SmashtagTests.framework"; sourceTree = "<group>"; };
+		D435F2D31E0451D800237133 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		D435F2E41E04620600237133 /* SmashtagTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435F2F21E04623800237133 /* ModulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435F2F61E04623800237133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435F2FE1E058F0800237133 /* ModulesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModulesTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D435F2FF1E058F0900237133 /* ModulesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesTests.swift; sourceTree = "<group>"; };
+		D435F30D1E05FB6F00237133 /* trinity_college_dublin_tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trinity_college_dublin_tweets.json; sourceTree = "<group>"; };
+		D435F3121E06A93B00237133 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		E4E956D91C8559AE333BA7A5 /* Pods-Smashtag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smashtag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smashtag/Pods-Smashtag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D435F2D01E04373200237133 /* Pods_SmashtagTests.framework in Frameworks */,
+				CB04BA0C8CE67AAD110ABD66 /* Pods_Smashtag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355052E0BCD00D864E464834 /* Pods_SmashtagTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +120,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745AE1EA4AC96D3520CBC127 /* Pods_SmashtagUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435F2E11E04620600237133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435F2EF1E04623800237133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23460CAD159DBBDDF20A957 /* Pods_ModulesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5E89CFB33CFA4D52A53F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E956D91C8559AE333BA7A5 /* Pods-Smashtag.debug.xcconfig */,
+				C41B95D520ADFC10256D5EE1 /* Pods-Smashtag.release.xcconfig */,
+				5CAA26CB207D66EEB3DD5E5A /* Pods-SmashtagTests.debug.xcconfig */,
+				9528BE50CEEF09C429211A3E /* Pods-SmashtagTests.release.xcconfig */,
+				74CD0170E554CB5A4197B783 /* Pods-SmashtagUITests.debug.xcconfig */,
+				9B17FCF968047700DB5D43DB /* Pods-SmashtagUITests.release.xcconfig */,
+				1AE35DB431EC04F784BCA158 /* Pods-ModulesTests.debug.xcconfig */,
+				8376FAAFF05CD0ABACE64C21 /* Pods-ModulesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D40DFFA31DA2F1D400E77967 = {
 			isa = PBXGroup;
 			children = (
+				D435F2D11E044CBA00237133 /* Modules */,
 				D40DFFAE1DA2F1D400E77967 /* Smashtag */,
 				D40DFFC31DA2F1D500E77967 /* SmashtagTests */,
 				D40DFFCE1DA2F1D500E77967 /* SmashtagUITests */,
+				D435F2F31E04623800237133 /* ModulesTests */,
 				D40DFFAD1DA2F1D400E77967 /* Products */,
+				9D5E89CFB33CFA4D52A53F27 /* Pods */,
+				E03BA8EADDA086CA75E9DAA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +177,8 @@
 				D40DFFAC1DA2F1D400E77967 /* Smashtag.app */,
 				D40DFFC01DA2F1D500E77967 /* SmashtagTests.xctest */,
 				D40DFFCB1DA2F1D500E77967 /* SmashtagUITests.xctest */,
+				D435F2E41E04620600237133 /* SmashtagTests2.xctest */,
+				D435F2F21E04623800237133 /* ModulesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +214,81 @@
 			path = SmashtagUITests;
 			sourceTree = "<group>";
 		};
+		D435F2D11E044CBA00237133 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D435F2DB1E045BAD00237133 /* Twitter */,
+				D435F2D21E0451A800237133 /* Client */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D435F2D21E0451A800237133 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				D435F2D31E0451D800237133 /* TwitterClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		D435F2DB1E045BAD00237133 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				D435F3111E06A90800237133 /* Models */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		D435F2F31E04623800237133 /* ModulesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D435F30C1E05FB5B00237133 /* Resources */,
+				D435F2FD1E058EA500237133 /* TweetTests */,
+				D435F2F61E04623800237133 /* Info.plist */,
+			);
+			path = ModulesTests;
+			sourceTree = "<group>";
+		};
+		D435F2FD1E058EA500237133 /* TweetTests */ = {
+			isa = PBXGroup;
+			children = (
+				D435F2FF1E058F0900237133 /* ModulesTests.swift */,
+				D435F2FE1E058F0800237133 /* ModulesTests-Bridging-Header.h */,
+			);
+			path = TweetTests;
+			sourceTree = "<group>";
+		};
+		D435F30C1E05FB5B00237133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D435F30D1E05FB6F00237133 /* trinity_college_dublin_tweets.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D435F3111E06A90800237133 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D435F3121E06A93B00237133 /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E03BA8EADDA086CA75E9DAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D435F2CF1E04373200237133 /* Pods_SmashtagTests.framework */,
+				D435F2C91E0436B500237133 /* Alamofire.framework */,
+				D435F2CA1E0436B500237133 /* Nimble.framework */,
+				D435F2CB1E0436B500237133 /* Quick.framework */,
+				0A69CC85DD0186BC370B009B /* Pods_Smashtag.framework */,
+				9B49A7A352CA0BDAB3CF75F4 /* Pods_SmashtagTests.framework */,
+				3925D1D0493116EEB391BAB4 /* Pods_SmashtagUITests.framework */,
+				96370B05BEDCB0640210B336 /* Pods_ModulesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40DFFD41DA2F1D500E77967 /* Build configuration list for PBXNativeTarget "Smashtag" */;
 			buildPhases = (
+				CFFD8492DDCFE305EB86BC5C /* [CP] Check Pods Manifest.lock */,
 				D40DFFA81DA2F1D400E77967 /* Sources */,
 				D40DFFA91DA2F1D400E77967 /* Frameworks */,
 				D40DFFAA1DA2F1D400E77967 /* Resources */,
+				CE23E51A4050245CFA409B5C /* [CP] Embed Pods Frameworks */,
+				8D1C08BC9001CC197D08D24E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40DFFD71DA2F1D500E77967 /* Build configuration list for PBXNativeTarget "SmashtagTests" */;
 			buildPhases = (
+				F2672E8336FE093B53D6F7C5 /* [CP] Check Pods Manifest.lock */,
 				D40DFFBC1DA2F1D500E77967 /* Sources */,
 				D40DFFBD1DA2F1D500E77967 /* Frameworks */,
 				D40DFFBE1DA2F1D500E77967 /* Resources */,
+				A958B5043F81F1748DD4ECAD /* [CP] Embed Pods Frameworks */,
+				CBE6502BF1D323ADDE8704D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40DFFDA1DA2F1D500E77967 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */;
 			buildPhases = (
+				FBEE127EE67CAAB912EF5F09 /* [CP] Check Pods Manifest.lock */,
 				D40DFFC71DA2F1D500E77967 /* Sources */,
 				D40DFFC81DA2F1D500E77967 /* Frameworks */,
 				D40DFFC91DA2F1D500E77967 /* Resources */,
+				55E5FEC832043D1D4CF60342 /* [CP] Embed Pods Frameworks */,
+				0645470E3D6D8F1522D8581F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,14 +354,53 @@
 			productReference = D40DFFCB1DA2F1D500E77967 /* SmashtagUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D435F2E31E04620600237133 /* SmashtagTests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435F2EB1E04620700237133 /* Build configuration list for PBXNativeTarget "SmashtagTests2" */;
+			buildPhases = (
+				D435F2E01E04620600237133 /* Sources */,
+				D435F2E11E04620600237133 /* Frameworks */,
+				D435F2E21E04620600237133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435F2EA1E04620700237133 /* PBXTargetDependency */,
+			);
+			name = SmashtagTests2;
+			productName = SmashtagTests2;
+			productReference = D435F2E41E04620600237133 /* SmashtagTests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D435F2F11E04623800237133 /* ModulesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435F2F91E04623800237133 /* Build configuration list for PBXNativeTarget "ModulesTests" */;
+			buildPhases = (
+				9FFBB689EFB1A9076C6EFFD1 /* [CP] Check Pods Manifest.lock */,
+				D435F2EE1E04623800237133 /* Sources */,
+				D435F2EF1E04623800237133 /* Frameworks */,
+				D435F2F01E04623800237133 /* Resources */,
+				8EB6B0400FD3DAC84A2F4E18 /* [CP] Embed Pods Frameworks */,
+				5915D92DD8617A3706688485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435F2F81E04623800237133 /* PBXTargetDependency */,
+			);
+			name = ModulesTests;
+			productName = ModulesTests;
+			productReference = D435F2F21E04623800237133 /* ModulesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D40DFFA41DA2F1D400E77967 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Stephen O'Kennedy";
 				TargetAttributes = {
 					D40DFFAB1DA2F1D400E77967 = {
@@ -205,6 +417,19 @@
 					D40DFFCA1DA2F1D500E77967 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = S2C6323M4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D40DFFAB1DA2F1D400E77967;
+					};
+					D435F2E31E04620600237133 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = S2C6323M4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D40DFFAB1DA2F1D400E77967;
+					};
+					D435F2F11E04623800237133 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = S2C6323M4A;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D40DFFAB1DA2F1D400E77967;
 					};
@@ -226,6 +451,8 @@
 				D40DFFAB1DA2F1D400E77967 /* Smashtag */,
 				D40DFFBF1DA2F1D500E77967 /* SmashtagTests */,
 				D40DFFCA1DA2F1D500E77967 /* SmashtagUITests */,
+				D435F2E31E04620600237133 /* SmashtagTests2 */,
+				D435F2F11E04623800237133 /* ModulesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +462,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D456A8CB1E130076002B4938 /* trinity_college_dublin_tweets.json in Resources */,
 				D40DFFBA1DA2F1D500E77967 /* LaunchScreen.storyboard in Resources */,
 				D40DFFB71DA2F1D500E77967 /* Assets.xcassets in Resources */,
 				D40DFFB51DA2F1D500E77967 /* Main.storyboard in Resources */,
@@ -255,7 +483,205 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D435F2E21E04620600237133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435F2F01E04623800237133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435F30E1E05FB6F00237133 /* trinity_college_dublin_tweets.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0645470E3D6D8F1522D8581F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashtagUITests/Pods-SmashtagUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E5FEC832043D1D4CF60342 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashtagUITests/Pods-SmashtagUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5915D92DD8617A3706688485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModulesTests/Pods-ModulesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1C08BC9001CC197D08D24E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smashtag/Pods-Smashtag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB6B0400FD3DAC84A2F4E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModulesTests/Pods-ModulesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFBB689EFB1A9076C6EFFD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A958B5043F81F1748DD4ECAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashtagTests/Pods-SmashtagTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE6502BF1D323ADDE8704D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashtagTests/Pods-SmashtagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE23E51A4050245CFA409B5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smashtag/Pods-Smashtag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFD8492DDCFE305EB86BC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2672E8336FE093B53D6F7C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEE127EE67CAAB912EF5F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D40DFFA81DA2F1D400E77967 /* Sources */ = {
@@ -263,7 +689,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D40DFFB21DA2F1D400E77967 /* ViewController.swift in Sources */,
+				D435F2D41E0451D800237133 /* TwitterClient.swift in Sources */,
 				D40DFFB01DA2F1D400E77967 /* AppDelegate.swift in Sources */,
+				D435F3131E06A93B00237133 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +711,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D435F2E01E04620600237133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435F2EE1E04623800237133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435F3001E058F0900237133 /* ModulesTests.swift in Sources */,
+				D435F3141E06A93B00237133 /* Tweet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +739,16 @@
 			isa = PBXTargetDependency;
 			target = D40DFFAB1DA2F1D400E77967 /* Smashtag */;
 			targetProxy = D40DFFCC1DA2F1D500E77967 /* PBXContainerItemProxy */;
+		};
+		D435F2EA1E04620700237133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40DFFAB1DA2F1D400E77967 /* Smashtag */;
+			targetProxy = D435F2E91E04620700237133 /* PBXContainerItemProxy */;
+		};
+		D435F2F81E04623800237133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40DFFAB1DA2F1D400E77967 /* Smashtag */;
+			targetProxy = D435F2F71E04623800237133 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +790,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -385,6 +840,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -411,9 +867,16 @@
 		};
 		D40DFFD51DA2F1D500E77967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E956D91C8559AE333BA7A5 /* Pods-Smashtag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S2C6323M4A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Quick",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.Smashtag;
@@ -424,9 +887,16 @@
 		};
 		D40DFFD61DA2F1D500E77967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41B95D520ADFC10256D5EE1 /* Pods-Smashtag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S2C6323M4A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Nimble",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Quick",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.Smashtag;
@@ -437,6 +907,7 @@
 		};
 		D40DFFD81DA2F1D500E77967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAA26CB207D66EEB3DD5E5A /* Pods-SmashtagTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +923,7 @@
 		};
 		D40DFFD91DA2F1D500E77967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9528BE50CEEF09C429211A3E /* Pods-SmashtagTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +939,7 @@
 		};
 		D40DFFDB1DA2F1D500E77967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CD0170E554CB5A4197B783 /* Pods-SmashtagUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2C6323M4A;
@@ -481,6 +954,7 @@
 		};
 		D40DFFDC1DA2F1D500E77967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B17FCF968047700DB5D43DB /* Pods-SmashtagUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2C6323M4A;
@@ -490,6 +964,73 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Smashtag;
+			};
+			name = Release;
+		};
+		D435F2EC1E04620700237133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2C6323M4A;
+				INFOPLIST_FILE = SmashtagTests2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.SmashtagTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Debug;
+		};
+		D435F2ED1E04620700237133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2C6323M4A;
+				INFOPLIST_FILE = SmashtagTests2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.SmashtagTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Release;
+		};
+		D435F2FA1E04623800237133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE35DB431EC04F784BCA158 /* Pods-ModulesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S2C6323M4A;
+				INFOPLIST_FILE = ModulesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.ModulesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModulesTests/TweetTests/ModulesTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Debug;
+		};
+		D435F2FB1E04623800237133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8376FAAFF05CD0ABACE64C21 /* Pods-ModulesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S2C6323M4A;
+				INFOPLIST_FILE = ModulesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephen.okennedy.ModulesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModulesTests/TweetTests/ModulesTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
 			};
 			name = Release;
 		};
@@ -512,6 +1053,7 @@
 				D40DFFD61DA2F1D500E77967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D40DFFD71DA2F1D500E77967 /* Build configuration list for PBXNativeTarget "SmashtagTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +1062,7 @@
 				D40DFFD91DA2F1D500E77967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D40DFFDA1DA2F1D500E77967 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +1071,25 @@
 				D40DFFDC1DA2F1D500E77967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435F2EB1E04620700237133 /* Build configuration list for PBXNativeTarget "SmashtagTests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435F2EC1E04620700237133 /* Debug */,
+				D435F2ED1E04620700237133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435F2F91E04623800237133 /* Build configuration list for PBXNativeTarget "ModulesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435F2FA1E04623800237133 /* Debug */,
+				D435F2FB1E04623800237133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
